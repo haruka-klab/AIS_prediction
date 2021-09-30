@@ -76,6 +76,5 @@ model.compile(optimizer = keras.optimizers.SGD(),
             loss = tf.kers.losses.BinaryCrossentropy(),
             metrics = [tf.keras.metrics.BinaryAccuracy()])
 
-訓練
-保存 or 利用
+訓練 保存 or 利用
 """

@@ -18,7 +18,7 @@ class dataConverter():
         print(self.df.head(5))
 
 if __name__=="__main__":
-    daC = dataConverter("data/AIS_2019_01_04.csv")
+    daC = dataConverter("../data/AIS_2019_01_04.csv")
     daC.showDf()
     daC.convert()
     daC.showDf()
